@@ -12,11 +12,11 @@ public class CameraController : MonoBehaviour
     {
         if (Input.GetKey("q"))
         {
-            moveSpeed -= 5;
+            moveSpeed -= 1;
         }
         if (Input.GetKey("e"))
         {
-            moveSpeed += 5;
+            moveSpeed += 1;
         }
         if (Input.GetKey("w"))
         {
